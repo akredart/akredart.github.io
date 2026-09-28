@@ -2,53 +2,186 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8" />
-        <title>My First Website</title>
+        <title>AKReds Art</title>
         <style type="text/css">
-            body {
-                background-color: #e66f12;
-                background-image: url(mac.jpg);
-                background-size: 100%;
-                background-attachment: scroll;
-                background-position: center;
+            
+            nav {
+                background-color: #212b10;
+                overflow: hidden;
+                font-family:Cambria, Cochin, Georgia, Times;
+            }
+            nav ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+            }
+            nav li {
+                float: inline-start;
+            }
+            nav li a {
+                display: block;
+                color: #b99667;
+                padding: 14px 16px;
+                text-decoration: none;
+                text-align: center;
+            }
+            nav li a:hover {
+                background-color: #111111;
+            }
+            
+            body{
+                background-color: #212b10;
             }
             div#wrapper {
-                background-color: antiquewhite;
-                width: 30vw;
-                margin:auto;
-                padding: 2em 1em 2em 1em;
-                height: 100vh;
+                background-color: #111111;
+                width: 95vw;
+                margin: auto;
+                padding: 1em 1em 1em 1em;
+                height: 85vh;
+                border-radius: 20px;
             }
             h1 {
-                color: #156325;
-                font-family: 'Times New Roman';
-                font-size: 2em;
-                margin-top: 0;
+                color: #b99667;
+                font-family: fantasy;
+                font-size: 3em;
+                text-align: center;
             }
-            p {
-                color: #301210;
-                font-family: 'Franklin Gothic Medium';
+            h2 {
                 font-size: 1em;
+                text-align: center;
+                font-family: Cambria, Cochin, Georgia, Times;
+                color: #b99667
             }
-            a {
-                color: blueviolet;
-                text-decoration: none;
+            h3 {
+                font-size: 1em;
+                text-align: center;
+                font-family: Cambria, Cochin, Georgia, Times;
+                color: #b99667;
             }
-            /* my comment */
-            a:hover {
-                color: antiquewhite;
-            } 
-            img {
-                width: 100%
+            div#wrapper img {
+                display: inline-block;
+                justify-content: center;
+                align-items: center;
+                width: 17%;
+                margin: 17px;
+            }
+            .gallery img{
+                display: inline-block;
+                justify-content: center;
+                align-items: center;
+                width: 25%;
+                margin: 25px;
+            }
+            div#showcase2 {
+                 background-color:#111111;
+                width: 95vw;
+                margin: auto;
+                padding: 1em 1em 1em 1em;
+                height: 65vh;
+                border-radius: 20px;
+            }
+            .gallery2 img{
+                display: inline-block;
+                justify-content: center;
+                align-items: center;
+                width: 25%;
+                margin: 25px;
+            }
+            div#showcase4 {
+                 background-color:#111111;
+                width: 95vw;
+                margin: auto;
+                padding: 1em 1em 1em 1em;
+                height: 80vh;
+                border-radius: 20px;
+            }
+            .gallery2 img{
+                display: inline-block;
+                justify-content: center;
+                align-items: center;
+                width: 25%;
+                margin: 25px;
+            }
+            div#form {
+                background-color: #111111;
+                width: 95vw;
+                margin: auto;
+                height: 110vh;
+                border-radius: 20px;
+                margin-top: 50px;
+                display: flex; 
+                flex-direction: column; 
+                align-items: center; 
+                padding: 20px;
+            }
+            h5 {
+                font-size: 1em;
+                text-align: center;
+                font-family:Cambria, Cochin, Georgia, Times;
+                color:#101605;
             }
         </style>
-</head>
- <body>
-    <div id="wrapper">
-        <h1>I am trying to make a website</h1>
-        <!-- comment -->
-        <p>I am doing a thing</p>
-        <p>I'm <a href="https://www.google.com/" target="_blank">hungry.</a> Click on hungry</p>
-        <p><img src="mac.jpg" /></p>
-     </div>
- </body>
+    </head>
+    <body>
+        
+    <nav>
+        <ul>
+            <li><a href="https://www.etsy.com/shop/AKredsArtwork?etsrc=sdt" target="blank"> Shop </a></li>
+            <li><a href="https://docs.google.com/forms/d/1J9cbMnXM8tBXajjMME8t3kcA4iHiJDydXQHcDmXU4mI/viewform?pli=1&pli=1&edit_requested=true" target="blank"> Comissions </a></li>
+            <li><a href="#" target="blank"> Photography </a></li>
+            <li><a href="https://www.instagram.com/akreds.art/" target="blank"> Vendor Info </a></li>
+        </ul>
+    </nav>
+        
+           <div id="wrapper" class="frame-box"> 
+                <h1> AKReds Art </h1>
+                <h2> Acrylic paintings, Wooden Coasters, Lineart Prints, Stickers, Recylced Jewlery Photography, and Designing </h2>
+                <h3> Comissions are open! </h3>  
+                <img src="lil%20ak.jpeg" alt="Centered Image">
+                <img src="lil%20ariel.jpeg" alt="Centered Image">
+                <img src="little%20ak.jpeg" alt="Centered Image">
+                <img src="lit%20ariel.jpeg" alt="Centered Image">
+                <img src="ak%20little.jpeg" alt="Centered Image">
+            </div>
+        
+            <div id="showcase1" class="gallery">
+                <h1> Artist's Showcase </h1>
+                <img src="guitar.jpeg" alt="Centered Image">
+                <img src="angel.jpeg" alt="Centered Image">
+                <img src="colorblind.jpeg" alt="Centered Image">
+            </div>
+            
+            <div id="showcase2" class="gallery2">
+                <img src="cryptids.jpeg" alt="Centered Image">
+                <img src="domesticated.jpeg" alt="Centered Image">
+                <img src="cookies.jpeg" alt="Centered Image">
+            </div>
+            
+            <div id="showcase3" class="gallery">
+                <img src="yellowariel.jpeg" alt="Centered Image">
+                <img src="babyariel.jpeg" alt="Centered Image">
+                <img src="roomariel.jpeg" alt="Centered Image">
+            </div>
+        
+            <div id="showcase4" class="gallery2">
+                <img src="lightbulb.jpeg" alt="Cemtered Image">
+                <img src="skeleton.jpeg" alt="Centered Image">
+                <img src="misha.jpeg" alt="Centered Image">
+            </div>
+        
+            <div id="form">
+                <h1>Commission Form</h1>
+                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScOQ03JUTj76hhgr9mD2kPyfbnQJ2-IsmaSv6ZIjf66bIM47w/viewform?embedded=true" width="700" height="520" frameborder="0" marginheight="5" marginwidth="5">
+                width: 100%;
+                height: 600; 
+                frameborder: 5; 
+                marginheight: 10; 
+                marginwidth: 10;
+                </iframe>
+            </div>
+        
+            <div id="footer">
+                <h5> All artworks and pieces have the right to be copyrighted and claimed by Ariel Kopas. </h5>
+            </div>
+    </body>
 </html>
